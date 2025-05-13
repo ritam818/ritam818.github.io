@@ -21,14 +21,15 @@ a tourism boost—it's a disruptive force.
 
 Rising rents, displacement of locals, and a shift from residential housing to tourist
 accommodations are the reality in these areas:
-Athens:
-● Kolonaki, Koukaki, Pangrati, and Exarchia are the neighborhoods most affected.
+
+**Athens:**
+- Kolonaki, Koukaki, Pangrati, and Exarchia are the neighborhoods most affected.
 Local residents, including students in Exarchia and families in Pangrati, are
 struggling to find affordable housing as landlords prioritize short-term rentals.
-● The Greek government has responded by limiting short-term rentals in these districts
+- The Greek government has responded by limiting short-term rentals in these districts
 to protect local communities, as [reported](
 https://www.barrons.com/news/short-term-rental-limits-in-popular-athens-areas-takeeffect-ce810cde) by Barron's. 
-● The overall number of short-term rental accommodations in Athens saw a 24.56%
+- The overall number of short-term rental accommodations in Athens saw a 24.56%
 increase from February 2023 to September 2024, as [reported](https://news.gtp.gr/2024/10/11/short-term-rental-accommodations-rise-in-downtown-athens/) by Gree Travel Pages.
 
 <figure>
@@ -38,13 +39,13 @@ increase from February 2023 to September 2024, as [reported](https://news.gtp.gr
   </figcaption>
 </figure>
 
-Barcelona:
-● The Gothic Quarter and Eixample have become hotspots for tourists but a nightmare
+**Barcelona:**
+- The Gothic Quarter and Eixample have become hotspots for tourists but a nightmare
 for residents. In the Gothic Quarter, the local population has dropped by almost half
 as properties are converted into short-term rentals.
-● The Gothic Quarter has lost 45% of its local population, replaced by tourist
+- The Gothic Quarter has lost 45% of its local population, replaced by tourist
 accommodations, as [reported](https://www.newyorker.com/magazine/2019/04/29/the-airbnb-invasion-of-barcelona) by The New Yorker. 
-● In response, Barcelona is planning to ban short-term tourist rentals by 2028, as [reported](https://www.theguardian.com/world/2024/nov/19/barcelona-mayor-defends-ban-touris
+- In response, Barcelona is planning to ban short-term tourist rentals by 2028, as [reported](https://www.theguardian.com/world/2024/nov/19/barcelona-mayor-defends-ban-touris
 t-flats-drastic-action-needed-cut-housing-costs) by The Guardian.
 
 <figure>

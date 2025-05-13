@@ -4,14 +4,6 @@ title: About
 permalink: /about/
 ---
 
-A medium inspired Jekyll blog theme. The basic idea came from the Ghost theme 
-[Readium 2.0](http://www.svenread.com/readium-ghost-theme/). I use mediator on my own blog [The Base](blog.base68.com).
+Welcome to our project exploring the dynamic landscape of the European Airbnb market. We have focused on eight European cities: Athens, Amsterdam, Barcelona, Madrid, London, Paris, Prague and Vienna. All of them are popular destinations and though they offer different kinds of tourism and have different attitudes regarding Airbnb regulations, they all experience the pros and cons of modern tourism and the Airbnb European market. Through data analysis and visualization, we uncover trends, challenges, and insights shaping short-term Airbnb rentals across Europe. This site showcases our findings, combining rigorous research with interactive visuals to provide a clear understanding of how Airbnb impacts cities and their local communities. Whether you’re a traveler, policymaker, or curious data enthusiast, we hope you find this exploration both informative and inspiring.
 
-You can **download** the theme here:
-[https://github.com/dirkfabisch/mediator](https://github.com/dirkfabisch/mediator) 
-
-You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+You can find more details about our work in [our explainer notebook](https://github.com/vasilikitsanaktsidou/Social-Data-Analysis-/blob/main/Final%20Project_Group80.ipynb).
