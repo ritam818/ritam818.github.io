@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "What kind of apartments are being offered in Airbnb?"
+title:  "What Kind of Apartments Are Being Offered in Airbnb?"
 date:   2025-05-12 14:34:25
 categories: 
 tags: 

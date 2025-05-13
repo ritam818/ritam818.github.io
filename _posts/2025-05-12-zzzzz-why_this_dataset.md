@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Why this dataset: The story behind Airbnb"
+title:  "Why This Dataset: The Story Behind Airbnb"
 date:   2025-05-12 14:34:25
 categories: 
 tags: 
@@ -50,3 +50,5 @@ money is generated through these short-term rentals.
 Despite having a similar number of listings, London and Paris generate far more revenue
 from Airbnb compared to other cities. This suggests that properties in these cities may
 command higher prices or have higher occupancy rates.
+
+You can find more details about our work in [our explainer notebook](https://github.com/vasilikitsanaktsidou/Social-Data-Analysis-/blob/main/Final%20Project_Group80.ipynb).

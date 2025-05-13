@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The bottom line: what we have learnt and what should change"
+title:  "The Bottom Line: What We Have Learned and What Should Change"
 date:   2025-05-12 14:34:25
 categories: 
 tags: 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Special occasions: The Taylor Swift effect"
+title:  "Special Occasions: The Taylor Swift Effect"
 date:   2025-05-12 14:34:25
 categories: 
 tags: 
