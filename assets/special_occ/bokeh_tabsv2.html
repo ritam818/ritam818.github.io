@@ -1,0 +1,86 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Calplot Tabs</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.4.1.min.js"></script>
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-2.4.1.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="f993094b-a6be-4d58-900d-9bfb91389c91" data-root-id="1767"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1768">
+          {"4cccf3eb-c851-4e2c-9f24-d2720fb704df":{"defs":[],"roots":{"references":[{"attributes":{"tabs":[{"id":"1752"},{"id":"1754"},{"id":"1756"},{"id":"1758"},{"id":"1760"},{"id":"1762"},{"id":"1764"},{"id":"1766"}]},"id":"1767","type":"Tabs"},{"attributes":{"child":{"id":"1757"},"title":"Barcelona"},"id":"1758","type":"Panel"},{"attributes":{"child":{"id":"1753"},"title":"London"},"id":"1754","type":"Panel"},{"attributes":{"child":{"id":"1761"},"title":"Athens"},"id":"1762","type":"Panel"},{"attributes":{"text":"\n            &lt;div style=\"text-align:center;\"&gt;\n                &lt;img src=\"/assets/special_occ/Vienna.png\" \n                     style=\"width:1820px; max-width:95vw; max-height:600px; height:auto; display:inline-block; margin:auto; border: 1px solid #bbb;\"&gt;\n            &lt;/div&gt;\n        "},"id":"1759","type":"Div"},{"attributes":{"text":"\n            &lt;div style=\"text-align:center;\"&gt;\n                &lt;img src=\"/assets/special_occ/Prague.png\" \n                     style=\"width:1820px; max-width:95vw; max-height:600px; height:auto; display:inline-block; margin:auto; border: 1px solid #bbb;\"&gt;\n            &lt;/div&gt;\n        "},"id":"1765","type":"Div"},{"attributes":{"child":{"id":"1751"},"title":"Paris"},"id":"1752","type":"Panel"},{"attributes":{"text":"\n            &lt;div style=\"text-align:center;\"&gt;\n                &lt;img src=\"/assets/special_occ/Amsterdam.png\" \n                     style=\"width:1820px; max-width:95vw; max-height:600px; height:auto; display:inline-block; margin:auto; border: 1px solid #bbb;\"&gt;\n            &lt;/div&gt;\n        "},"id":"1763","type":"Div"},{"attributes":{"child":{"id":"1755"},"title":"Madrid"},"id":"1756","type":"Panel"},{"attributes":{"child":{"id":"1759"},"title":"Vienna"},"id":"1760","type":"Panel"},{"attributes":{"text":"\n            &lt;div style=\"text-align:center;\"&gt;\n                &lt;img src=\"/assets/special_occ/Athens.png\" \n                     style=\"width:1820px; max-width:95vw; max-height:600px; height:auto; display:inline-block; margin:auto; border: 1px solid #bbb;\"&gt;\n            &lt;/div&gt;\n        "},"id":"1761","type":"Div"},{"attributes":{"text":"\n            &lt;div style=\"text-align:center;\"&gt;\n                &lt;img src=\"/assets/special_occ/Barcelona.png\" \n                     style=\"width:1820px; max-width:95vw; max-height:600px; height:auto; display:inline-block; margin:auto; border: 1px solid #bbb;\"&gt;\n            &lt;/div&gt;\n        "},"id":"1757","type":"Div"},{"attributes":{"text":"\n            &lt;div style=\"text-align:center;\"&gt;\n                &lt;img src=\"/assets/special_occ/London.png\" \n                     style=\"width:1820px; max-width:95vw; max-height:600px; height:auto; display:inline-block; margin:auto; border: 1px solid #bbb;\"&gt;\n            &lt;/div&gt;\n        "},"id":"1753","type":"Div"},{"attributes":{"child":{"id":"1765"},"title":"Prague"},"id":"1766","type":"Panel"},{"attributes":{"child":{"id":"1763"},"title":"Amsterdam"},"id":"1764","type":"Panel"},{"attributes":{"text":"\n            &lt;div style=\"text-align:center;\"&gt;\n                &lt;img src=\"/assets/special_occ/Madrid.png\" \n                     style=\"width:1820px; max-width:95vw; max-height:600px; height:auto; display:inline-block; margin:auto; border: 1px solid #bbb;\"&gt;\n            &lt;/div&gt;\n        "},"id":"1755","type":"Div"},{"attributes":{"text":"\n            &lt;div style=\"text-align:center;\"&gt;\n                &lt;img src=\"/assets/special_occ/Paris.png\" \n                     style=\"width:1820px; max-width:95vw; max-height:600px; height:auto; display:inline-block; margin:auto; border: 1px solid #bbb;\"&gt;\n            &lt;/div&gt;\n        "},"id":"1751","type":"Div"}],"root_ids":["1767"]},"title":"Bokeh Application","version":"2.4.1"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            const fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  const docs_json = document.getElementById('1768').textContent;
+                  const render_items = [{"docid":"4cccf3eb-c851-4e2c-9f24-d2720fb704df","root_ids":["1767"],"roots":{"1767":"f993094b-a6be-4d58-900d-9bfb91389c91"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    let attempts = 0;
+                    const timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>

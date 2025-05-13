@@ -4,9 +4,9 @@ gems:
   - jekyll-paginate
 
 # Site settings
-title: "Mediator"
+title: "Decoding the European Airbnb Market"
 description: > # this means to ignore newlines until "email:"
-   A Jekyll theme - Medium inspired
+   Shedding light on the true face of Airbnb in Europe
 
 email: a-mail@mail.mail
 #blog logo
@@ -16,13 +16,13 @@ float_logo: true # true, false (default)
 # blog cover
 cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
 
-name: 'Dirk Fabisch'
-author: 'Dirk Fabisch'
+name: 'Vasiliki, Rita (s232489, s232935)'
+author: 'Vasiliki, Rita (s232489, s232935)'
 author_image: "/assets/images/author.jpg"
 
 paginate:	5
 
-url: "http://myblog.***.***" # the base hostname & protocol for your site
+url: "/ritam818.github.io" # the base hostname & protocol for your site
 baseurl: ""
 #used to display twitter cards
 twitter_handle: '@dirkfabisch'

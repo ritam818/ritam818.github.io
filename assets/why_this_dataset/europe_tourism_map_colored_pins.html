@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2b5001356334c9866acef38487ba2a9d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_2b5001356334c9866acef38487ba2a9d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2b5001356334c9866acef38487ba2a9d = L.map(
+                "map_2b5001356334c9866acef38487ba2a9d",
+                {
+                    center: [54.526, 15.2551],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 4,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6383f8a8880f09ee2e7e464d46e37760 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_6383f8a8880f09ee2e7e464d46e37760.addTo(map_2b5001356334c9866acef38487ba2a9d);
+        
+    
+            var circle_28a39c7997bdc83632f1311907e30662 = L.circle(
+                [52.3676, 4.9041],
+                {"bubblingMouseEvents": true, "color": "#4B0082", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4B0082", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40000, "stroke": true, "weight": 3}
+            ).addTo(map_2b5001356334c9866acef38487ba2a9d);
+        
+    
+            var marker_61b92a4384761c0adbf64204e24c1566 = L.marker(
+                [52.3676, 4.9041],
+                {
+}
+            ).addTo(map_2b5001356334c9866acef38487ba2a9d);
+        
+    
+            var icon_a6edb5f451406c5633e93a1172b3ee81 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "white",
+  "iconColor": "#4B0082",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_61b92a4384761c0adbf64204e24c1566.bindTooltip(
+                `<div>
+                     Amsterdam<br>Tourists: 9,000,000<br>Revenue: €7.0B
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_61b92a4384761c0adbf64204e24c1566.setIcon(icon_a6edb5f451406c5633e93a1172b3ee81);
+            
+    
+            var circle_9c8379f4d46a8d815e7882ef859c093c = L.circle(
+                [37.9838, 23.7275],
+                {"bubblingMouseEvents": true, "color": "#228B22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#228B22", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40000, "stroke": true, "weight": 3}
+            ).addTo(map_2b5001356334c9866acef38487ba2a9d);
+        
+    
+            var marker_1985e6837871d85bcd6f1f35af3f21c7 = L.marker(
+                [37.9838, 23.7275],
+                {
+}
+            ).addTo(map_2b5001356334c9866acef38487ba2a9d);
+        
+    
+            var icon_39ece6377f0ba3cba32adfbb94625b79 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "white",
+  "iconColor": "#228B22",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_1985e6837871d85bcd6f1f35af3f21c7.bindTooltip(
+                `<div>
+                     Athens<br>Tourists: 4,000,000<br>Revenue: €3.0B
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1985e6837871d85bcd6f1f35af3f21c7.setIcon(icon_39ece6377f0ba3cba32adfbb94625b79);
+            
+    
+            var circle_15aefe10e4facec69959e0f8da5ddd81 = L.circle(
+                [41.3851, 2.1734],
+                {"bubblingMouseEvents": true, "color": "#FF8C00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF8C00", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40000, "stroke": true, "weight": 3}
+            ).addTo(map_2b5001356334c9866acef38487ba2a9d);
+        
+    
+            var marker_728db5e1eba3c172781d915c8b180ea3 = L.marker(
+                [41.3851, 2.1734],
+                {
+}
+            ).addTo(map_2b5001356334c9866acef38487ba2a9d);
+        
+    
+            var icon_837d582dbe12107294baab4b36dafe19 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "white",
+  "iconColor": "#FF8C00",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_728db5e1eba3c172781d915c8b180ea3.bindTooltip(
+                `<div>
+                     Barcelona<br>Tourists: 10,000,000<br>Revenue: €8.0B
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_728db5e1eba3c172781d915c8b180ea3.setIcon(icon_837d582dbe12107294baab4b36dafe19);
+            
+    
+            var circle_b4f9394f8543d895d2bae67f416af1f6 = L.circle(
+                [40.4168, -3.7038],
+                {"bubblingMouseEvents": true, "color": "#FF4500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF4500", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40000, "stroke": true, "weight": 3}
+            ).addTo(map_2b5001356334c9866acef38487ba2a9d);
+        
+    
+            var marker_34d516cee9fa3961de61ef0cc0400d9c = L.marker(
+                [40.4168, -3.7038],
+                {
+}
+            ).addTo(map_2b5001356334c9866acef38487ba2a9d);
+        
+    
+            var icon_ac3bbdc72185e83b78009b56cac75e74 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "white",
+  "iconColor": "#FF4500",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_34d516cee9fa3961de61ef0cc0400d9c.bindTooltip(
+                `<div>
+                     Madrid<br>Tourists: 6,000,000<br>Revenue: €5.0B
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_34d516cee9fa3961de61ef0cc0400d9c.setIcon(icon_ac3bbdc72185e83b78009b56cac75e74);
+            
+    
+            var circle_2a8c07a35e0c90ed6a6f4c2e7bb71b87 = L.circle(
+                [50.0755, 14.4378],
+                {"bubblingMouseEvents": true, "color": "#1E90FF", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1E90FF", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40000, "stroke": true, "weight": 3}
+            ).addTo(map_2b5001356334c9866acef38487ba2a9d);
+        
+    
+            var marker_d8e572c6fdf2e329f0f75f171ec266aa = L.marker(
+                [50.0755, 14.4378],
+                {
+}
+            ).addTo(map_2b5001356334c9866acef38487ba2a9d);
+        
+    
+            var icon_7c3b975a8f16edb001454532141dd030 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "white",
+  "iconColor": "#1E90FF",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_d8e572c6fdf2e329f0f75f171ec266aa.bindTooltip(
+                `<div>
+                     Prague<br>Tourists: 8,000,000<br>Revenue: €6.0B
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d8e572c6fdf2e329f0f75f171ec266aa.setIcon(icon_7c3b975a8f16edb001454532141dd030);
+            
+    
+            var circle_f4aea321d7d5ca68ab1cbabce579dd7e = L.circle(
+                [48.2082, 16.3738],
+                {"bubblingMouseEvents": true, "color": "#FF69B4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF69B4", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40000, "stroke": true, "weight": 3}
+            ).addTo(map_2b5001356334c9866acef38487ba2a9d);
+        
+    
+            var marker_f5d8eae907f77c4694eabe0f65fbd544 = L.marker(
+                [48.2082, 16.3738],
+                {
+}
+            ).addTo(map_2b5001356334c9866acef38487ba2a9d);
+        
+    
+            var icon_09df28de5cbcb8d0478424150d38a61b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "white",
+  "iconColor": "#FF69B4",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_f5d8eae907f77c4694eabe0f65fbd544.bindTooltip(
+                `<div>
+                     Vienna<br>Tourists: 7,000,000<br>Revenue: €5.5B
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f5d8eae907f77c4694eabe0f65fbd544.setIcon(icon_09df28de5cbcb8d0478424150d38a61b);
+            
+    
+            var circle_da9bef23ec01161384abfa58a3e6b338 = L.circle(
+                [51.5074, -0.1278],
+                {"bubblingMouseEvents": true, "color": "#00008B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#00008B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40000, "stroke": true, "weight": 3}
+            ).addTo(map_2b5001356334c9866acef38487ba2a9d);
+        
+    
+            var marker_de6f82e0fb550745ab686838f260d0a4 = L.marker(
+                [51.5074, -0.1278],
+                {
+}
+            ).addTo(map_2b5001356334c9866acef38487ba2a9d);
+        
+    
+            var icon_1b4f7e44fe36b33e91504948fd077cf5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "white",
+  "iconColor": "#00008B",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_de6f82e0fb550745ab686838f260d0a4.bindTooltip(
+                `<div>
+                     London<br>Tourists: 21,700,000<br>Revenue: €31.5B
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_de6f82e0fb550745ab686838f260d0a4.setIcon(icon_1b4f7e44fe36b33e91504948fd077cf5);
+            
+    
+            var circle_b189b32cf962f87de92fb552cbb7ce1b = L.circle(
+                [48.8566, 2.3522],
+                {"bubblingMouseEvents": true, "color": "#8B0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8B0000", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40000, "stroke": true, "weight": 3}
+            ).addTo(map_2b5001356334c9866acef38487ba2a9d);
+        
+    
+            var marker_ed04c16accfbbffe77d817be40553550 = L.marker(
+                [48.8566, 2.3522],
+                {
+}
+            ).addTo(map_2b5001356334c9866acef38487ba2a9d);
+        
+    
+            var icon_ae1df5ff332b253d5645a55701f35719 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "white",
+  "iconColor": "#8B0000",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_ed04c16accfbbffe77d817be40553550.bindTooltip(
+                `<div>
+                     Paris<br>Tourists: 17,400,000<br>Revenue: €25.0B
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ed04c16accfbbffe77d817be40553550.setIcon(icon_ae1df5ff332b253d5645a55701f35719);
+            
+</script>
+</html>

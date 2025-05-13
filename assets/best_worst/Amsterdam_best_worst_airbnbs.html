@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9f4728a394758ad5268c174e1b569f5a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9f4728a394758ad5268c174e1b569f5a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9f4728a394758ad5268c174e1b569f5a = L.map(
+                "map_9f4728a394758ad5268c174e1b569f5a",
+                {
+                    center: [52.36656027272009, 4.8915056793276666],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_40b1266c04e6bdabd7be99cd017c4c6a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_40b1266c04e6bdabd7be99cd017c4c6a.addTo(map_9f4728a394758ad5268c174e1b569f5a);
+        
+    
+            var marker_91c34c3b47d4908ee06def883e119241 = L.marker(
+                [52.32780776, 4.876800057],
+                {
+}
+            ).addTo(map_9f4728a394758ad5268c174e1b569f5a);
+        
+    
+            var icon_89027eeafb03b2341a0b949f5f624a80 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ee4c6375d87e4df6d9db53269402f069 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3c4ae619023de8fdda91b2b02f8420b6 = $(`<div id="html_3c4ae619023de8fdda91b2b02f8420b6" style="width: 100.0%; height: 100.0%;">Best Airbnb: 5.0 Neighborhood: Buitenveldert - Zuidas</div>`)[0];
+                popup_ee4c6375d87e4df6d9db53269402f069.setContent(html_3c4ae619023de8fdda91b2b02f8420b6);
+            
+        
+
+        marker_91c34c3b47d4908ee06def883e119241.bindPopup(popup_ee4c6375d87e4df6d9db53269402f069)
+        ;
+
+        
+    
+    
+                marker_91c34c3b47d4908ee06def883e119241.setIcon(icon_89027eeafb03b2341a0b949f5f624a80);
+            
+    
+            var marker_d9399c7011dca552755b735fe8cda6da = L.marker(
+                [52.36263, 4.90216],
+                {
+}
+            ).addTo(map_9f4728a394758ad5268c174e1b569f5a);
+        
+    
+            var icon_243b05458f599b6106d9a38fe8a7531f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fb09b6f38c982dce984ca7035c1c492c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ac4dd40af73e294ed118748c6897e613 = $(`<div id="html_ac4dd40af73e294ed118748c6897e613" style="width: 100.0%; height: 100.0%;">Best Airbnb: 5.0 Neighborhood: Centrum-Oost</div>`)[0];
+                popup_fb09b6f38c982dce984ca7035c1c492c.setContent(html_ac4dd40af73e294ed118748c6897e613);
+            
+        
+
+        marker_d9399c7011dca552755b735fe8cda6da.bindPopup(popup_fb09b6f38c982dce984ca7035c1c492c)
+        ;
+
+        
+    
+    
+                marker_d9399c7011dca552755b735fe8cda6da.setIcon(icon_243b05458f599b6106d9a38fe8a7531f);
+            
+    
+            var marker_8e0de0c8b4934378f619a32716fac6e6 = L.marker(
+                [52.3840968, 4.9028607],
+                {
+}
+            ).addTo(map_9f4728a394758ad5268c174e1b569f5a);
+        
+    
+            var icon_7e267bcc730a5563d863528c47030ee3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "remove",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a77cbfd4f71c4c07fba49014db385543 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bc3fe95d854d51e28338ecc67d702b84 = $(`<div id="html_bc3fe95d854d51e28338ecc67d702b84" style="width: 100.0%; height: 100.0%;">Worst Airbnb: 1.0 Neighborhood: Oud-Noord</div>`)[0];
+                popup_a77cbfd4f71c4c07fba49014db385543.setContent(html_bc3fe95d854d51e28338ecc67d702b84);
+            
+        
+
+        marker_8e0de0c8b4934378f619a32716fac6e6.bindPopup(popup_a77cbfd4f71c4c07fba49014db385543)
+        ;
+
+        
+    
+    
+                marker_8e0de0c8b4934378f619a32716fac6e6.setIcon(icon_7e267bcc730a5563d863528c47030ee3);
+            
+    
+            var marker_3b04e28c2f4174bd414d7e3d304cc5b7 = L.marker(
+                [52.36386, 4.9111],
+                {
+}
+            ).addTo(map_9f4728a394758ad5268c174e1b569f5a);
+        
+    
+            var icon_0b8f6ae0362d95291d3d7aa5a9ddbbfc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "remove",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2c30851b5812e2aab059b07255c56cda = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e92262c6f40b49fddc8de989f8d3b1e4 = $(`<div id="html_e92262c6f40b49fddc8de989f8d3b1e4" style="width: 100.0%; height: 100.0%;">Worst Airbnb: 2.0 Neighborhood: Centrum-Oost</div>`)[0];
+                popup_2c30851b5812e2aab059b07255c56cda.setContent(html_e92262c6f40b49fddc8de989f8d3b1e4);
+            
+        
+
+        marker_3b04e28c2f4174bd414d7e3d304cc5b7.bindPopup(popup_2c30851b5812e2aab059b07255c56cda)
+        ;
+
+        
+    
+    
+                marker_3b04e28c2f4174bd414d7e3d304cc5b7.setIcon(icon_0b8f6ae0362d95291d3d7aa5a9ddbbfc);
+            
+</script>
+</html>

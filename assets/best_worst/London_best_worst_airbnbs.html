@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_60a5701c4e8095f8c828efe45b27b25c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_60a5701c4e8095f8c828efe45b27b25c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_60a5701c4e8095f8c828efe45b27b25c = L.map(
+                "map_60a5701c4e8095f8c828efe45b27b25c",
+                {
+                    center: [51.50952415266084, -0.13017390213248417],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7ae5ee6566cd5cb35480d22b7c4a9147 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_7ae5ee6566cd5cb35480d22b7c4a9147.addTo(map_60a5701c4e8095f8c828efe45b27b25c);
+        
+    
+            var marker_3f55ab80a080925e666935e43d2fd2ab = L.marker(
+                [51.56843297, -0.036448874],
+                {
+}
+            ).addTo(map_60a5701c4e8095f8c828efe45b27b25c);
+        
+    
+            var icon_b3c8b7d52c746aa2c8ba81df64a4f1c9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7bcb4de3f81fe49bdf6491a470b59871 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fabbaf78968292f3b4a734edff96d642 = $(`<div id="html_fabbaf78968292f3b4a734edff96d642" style="width: 100.0%; height: 100.0%;">Best Airbnb: 5.0 Neighborhood: Waltham Forest</div>`)[0];
+                popup_7bcb4de3f81fe49bdf6491a470b59871.setContent(html_fabbaf78968292f3b4a734edff96d642);
+            
+        
+
+        marker_3f55ab80a080925e666935e43d2fd2ab.bindPopup(popup_7bcb4de3f81fe49bdf6491a470b59871)
+        ;
+
+        
+    
+    
+                marker_3f55ab80a080925e666935e43d2fd2ab.setIcon(icon_b3c8b7d52c746aa2c8ba81df64a4f1c9);
+            
+    
+            var marker_c1d27ea14a15bdb5e79e09972ff347ea = L.marker(
+                [51.6074375, -0.0016436],
+                {
+}
+            ).addTo(map_60a5701c4e8095f8c828efe45b27b25c);
+        
+    
+            var icon_f3e11f29dfcad41a2b7aec3c7982ab30 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d9ca81dc7801832eb33c5d5460af50fc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3da8a437a139cbd28610b7c7dd3e70e0 = $(`<div id="html_3da8a437a139cbd28610b7c7dd3e70e0" style="width: 100.0%; height: 100.0%;">Best Airbnb: 5.0 Neighborhood: Waltham Forest</div>`)[0];
+                popup_d9ca81dc7801832eb33c5d5460af50fc.setContent(html_3da8a437a139cbd28610b7c7dd3e70e0);
+            
+        
+
+        marker_c1d27ea14a15bdb5e79e09972ff347ea.bindPopup(popup_d9ca81dc7801832eb33c5d5460af50fc)
+        ;
+
+        
+    
+    
+                marker_c1d27ea14a15bdb5e79e09972ff347ea.setIcon(icon_f3e11f29dfcad41a2b7aec3c7982ab30);
+            
+    
+            var marker_a7ef15ce5bab67af9c07bd00ab752860 = L.marker(
+                [51.33194829, -0.108263684],
+                {
+}
+            ).addTo(map_60a5701c4e8095f8c828efe45b27b25c);
+        
+    
+            var icon_d091e864cdfee220f8adba96a3bfe184 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "remove",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c138ae00427aa2c4a7269628df6df7e0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d669df0a7f902e50d269ad29d51598d5 = $(`<div id="html_d669df0a7f902e50d269ad29d51598d5" style="width: 100.0%; height: 100.0%;">Worst Airbnb: 1.0 Neighborhood: Croydon</div>`)[0];
+                popup_c138ae00427aa2c4a7269628df6df7e0.setContent(html_d669df0a7f902e50d269ad29d51598d5);
+            
+        
+
+        marker_a7ef15ce5bab67af9c07bd00ab752860.bindPopup(popup_c138ae00427aa2c4a7269628df6df7e0)
+        ;
+
+        
+    
+    
+                marker_a7ef15ce5bab67af9c07bd00ab752860.setIcon(icon_d091e864cdfee220f8adba96a3bfe184);
+            
+    
+            var marker_513d05ae0c1128d17917bfbd7600cee0 = L.marker(
+                [51.50663, 0.02182],
+                {
+}
+            ).addTo(map_60a5701c4e8095f8c828efe45b27b25c);
+        
+    
+            var icon_6fc468bebe2c043f1e4ef42d5bf18436 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "remove",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4a68e5d58a23409e6e17ede1e3f67ac2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_45b8a067a24b06a9318d5b72aba4ee6e = $(`<div id="html_45b8a067a24b06a9318d5b72aba4ee6e" style="width: 100.0%; height: 100.0%;">Worst Airbnb: 1.0 Neighborhood: Newham</div>`)[0];
+                popup_4a68e5d58a23409e6e17ede1e3f67ac2.setContent(html_45b8a067a24b06a9318d5b72aba4ee6e);
+            
+        
+
+        marker_513d05ae0c1128d17917bfbd7600cee0.bindPopup(popup_4a68e5d58a23409e6e17ede1e3f67ac2)
+        ;
+
+        
+    
+    
+                marker_513d05ae0c1128d17917bfbd7600cee0.setIcon(icon_6fc468bebe2c043f1e4ef42d5bf18436);
+            
+</script>
+</html>

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_951dc3f72f2ac340083ac466b99b256f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_951dc3f72f2ac340083ac466b99b256f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_951dc3f72f2ac340083ac466b99b256f = L.map(
+                "map_951dc3f72f2ac340083ac466b99b256f",
+                {
+                    center: [48.204098145313026, 16.362441555102915],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7d2b984768b7ff4fad4a4917661f01a5 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_7d2b984768b7ff4fad4a4917661f01a5.addTo(map_951dc3f72f2ac340083ac466b99b256f);
+        
+    
+            var marker_de971f23ddde291928283d2abcff1fe8 = L.marker(
+                [48.16914, 16.36714],
+                {
+}
+            ).addTo(map_951dc3f72f2ac340083ac466b99b256f);
+        
+    
+            var icon_7ae8e81ce1db1a642d417c0cbc94645a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f54ab2300352d41929e692afec66c765 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2610fd798bfc1a2bfdb89e954a879e12 = $(`<div id="html_2610fd798bfc1a2bfdb89e954a879e12" style="width: 100.0%; height: 100.0%;">Best Airbnb: 5.0 Neighborhood: Favoriten</div>`)[0];
+                popup_f54ab2300352d41929e692afec66c765.setContent(html_2610fd798bfc1a2bfdb89e954a879e12);
+            
+        
+
+        marker_de971f23ddde291928283d2abcff1fe8.bindPopup(popup_f54ab2300352d41929e692afec66c765)
+        ;
+
+        
+    
+    
+                marker_de971f23ddde291928283d2abcff1fe8.setIcon(icon_7ae8e81ce1db1a642d417c0cbc94645a);
+            
+    
+            var marker_cd2fe39669f3cf20ed3c5b94a36fa273 = L.marker(
+                [48.21922, 16.37548],
+                {
+}
+            ).addTo(map_951dc3f72f2ac340083ac466b99b256f);
+        
+    
+            var icon_0ffcea73a80b52742f6f05644f4bdf61 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_28937b905b4610844a111cb378576e48 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_04e491dc3c2daaf55fcbcfaa903078d2 = $(`<div id="html_04e491dc3c2daaf55fcbcfaa903078d2" style="width: 100.0%; height: 100.0%;">Best Airbnb: 5.0 Neighborhood: Leopoldstadt</div>`)[0];
+                popup_28937b905b4610844a111cb378576e48.setContent(html_04e491dc3c2daaf55fcbcfaa903078d2);
+            
+        
+
+        marker_cd2fe39669f3cf20ed3c5b94a36fa273.bindPopup(popup_28937b905b4610844a111cb378576e48)
+        ;
+
+        
+    
+    
+                marker_cd2fe39669f3cf20ed3c5b94a36fa273.setIcon(icon_0ffcea73a80b52742f6f05644f4bdf61);
+            
+    
+            var marker_a0292f9e30f79cb6fe272334cd6e6b7c = L.marker(
+                [48.22580104, 16.38797071],
+                {
+}
+            ).addTo(map_951dc3f72f2ac340083ac466b99b256f);
+        
+    
+            var icon_d6d125463123884924456c5f25334da4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "remove",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8702d37cc478d31d848778ff0dc4fc95 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b7eed745c037a839a8e7d0f7b6e2dec1 = $(`<div id="html_b7eed745c037a839a8e7d0f7b6e2dec1" style="width: 100.0%; height: 100.0%;">Worst Airbnb: 1.0 Neighborhood: Leopoldstadt</div>`)[0];
+                popup_8702d37cc478d31d848778ff0dc4fc95.setContent(html_b7eed745c037a839a8e7d0f7b6e2dec1);
+            
+        
+
+        marker_a0292f9e30f79cb6fe272334cd6e6b7c.bindPopup(popup_8702d37cc478d31d848778ff0dc4fc95)
+        ;
+
+        
+    
+    
+                marker_a0292f9e30f79cb6fe272334cd6e6b7c.setIcon(icon_d6d125463123884924456c5f25334da4);
+            
+    
+            var marker_8d26752e9326d3a3bd2c6e414da033e8 = L.marker(
+                [48.19854, 16.33265],
+                {
+}
+            ).addTo(map_951dc3f72f2ac340083ac466b99b256f);
+        
+    
+            var icon_6489436bc31727803a33e032de58eab4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "remove",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a27963088083253338fc625d2eb0c89f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cd5d6b1cbc10914e8b8451e29dfe74b0 = $(`<div id="html_cd5d6b1cbc10914e8b8451e29dfe74b0" style="width: 100.0%; height: 100.0%;">Worst Airbnb: 1.0 Neighborhood: Rudolfsheim-Fnfhaus</div>`)[0];
+                popup_a27963088083253338fc625d2eb0c89f.setContent(html_cd5d6b1cbc10914e8b8451e29dfe74b0);
+            
+        
+
+        marker_8d26752e9326d3a3bd2c6e414da033e8.bindPopup(popup_a27963088083253338fc625d2eb0c89f)
+        ;
+
+        
+    
+    
+                marker_8d26752e9326d3a3bd2c6e414da033e8.setIcon(icon_6489436bc31727803a33e032de58eab4);
+            
+</script>
+</html>

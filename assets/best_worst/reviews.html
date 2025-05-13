@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best and Worst Airbnbs - Interactive Website</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        .city-section { margin-bottom: 40px; }
+        .city-button { margin: 10px; padding: 12px 24px; font-size: 18px; cursor: pointer; }
+        .city-section { display: none; }
+    </style>
+    <script>
+        function showCity(city) {
+            document.querySelectorAll('.city-section').forEach(section => section.style.display = 'none');
+            document.getElementById(city).style.display = 'block';
+        }
+    </script>
+</head>
+<body>
+    <h1>Explore the Best and Worst Airbnbs</h1>
+    <div>
+        <button class="city-button" onclick="showCity('madrid')">Madrid</button>
+        <button class="city-button" onclick="showCity('vienna')">Vienna</button>
+        <button class="city-button" onclick="showCity('prague')">Prague</button>
+        <button class="city-button" onclick="showCity('london')">London</button>
+        <button class="city-button" onclick="showCity('amsterdam')">Amsterdam</button>
+    </div>
+
+    <div id="madrid" class="city-section">
+        <h2>Madrid</h2>
+        <iframe src="Madrid_best_worst_airbnbs.html" width="100%" height="500px"></iframe>
+    </div>
+
+    <div id="vienna" class="city-section">
+        <h2>Vienna</h2>
+        <iframe src="Vienna_best_worst_airbnbs.html" width="100%" height="500px"></iframe>
+    </div>
+
+    <div id="prague" class="city-section">
+        <h2>Prague</h2>
+        <iframe src="Prague_best_worst_airbnbs.html" width="100%" height="500px"></iframe>
+    </div>
+
+    <div id="london" class="city-section">
+        <h2>London</h2>
+        <iframe src="London_best_worst_airbnbs.html" width="100%" height="500px"></iframe>
+    </div>
+
+    <div id="amsterdam" class="city-section">
+        <h2>Amsterdam</h2>
+        <iframe src="Amsterdam_best_worst_airbnbs.html" width="100%" height="500px"></iframe>
+    </div>
+
+    <script>
+        // Default to showing Madrid
+        showCity('madrid');
+    </script>
+</body>
+</html>
