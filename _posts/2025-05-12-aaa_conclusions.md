@@ -12,6 +12,9 @@ Cities like Athens and Prague attract budget-conscious travelers that sometimes 
 
 In contrast, Amsterdam stands out for its relatively low number of listings catering to higher-spending visitors and for experiencing less pronounced seasonality compared to other major European destinations. Notably, Amsterdam has been a pioneer in implementing strict short-term rental regulations. These measures aim to balance tourism benefits with neighborhood stability and have become a model for other cities facing similar challenges.
 
+
+![Amsterdam is one of the pioneers in establishing Airbnb regulations.](/assets/conclusions/horizontal-amsterdam.jpg)
+
 Our review of user feedback shows that, overall, guests are satisfied with their Airbnb experiences. However, in cities like London, listings in districts known for safety concerns tend to receive lower ratings, underscoring the importance of location and local context in guest satisfaction.
 
 We also observed that in some areas-particularly Athens and Barcelona-Airbnb has become so dominant that it has contributed to severe housing shortages for residents, prompting local governments to introduce strict regulations or outright bans on certain types of short-term rentals. These policy interventions are designed to protect affordable housing and maintain the livability of urban neighborhoods.

@@ -39,6 +39,9 @@ increase from February 2023 to September 2024, as [reported](https://news.gtp.gr
   </figcaption>
 </figure>
 
+
+![The city centre of Athens.](/assets/threat_opportunity/athens.jpg)
+
 **Barcelona:**
 - The Gothic Quarter and Eixample have become hotspots for tourists but a nightmare
 for residents. In the Gothic Quarter, the local population has dropped by almost half
